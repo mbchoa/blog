@@ -1,0 +1,25 @@
+baseurl = "/"
+languageCode = "en"
+title = "Michael-Bryant Choa"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/mbchoa\">Michael-Bryant Choa</a> 2016"
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/mbchoa"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/mibrychoa"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
