@@ -3,8 +3,8 @@ languageCode = "en"
 title = "Michael-Bryant Choa"
 theme = "hemingway"
 copyright = "&copy; <a href=\"https://github.com/mbchoa\">Michael-Bryant Choa</a> 2016"
-disqusShortname = ""
-googleAnalytics = ""
+disqusShortname = "mbchoa-blog"
+googleAnalytics = "UA-88930105-2"
 
 [params]
 
