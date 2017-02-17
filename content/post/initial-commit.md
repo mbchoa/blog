@@ -39,7 +39,7 @@ There were a few "gotchas" I had to figure out through the setup process which I
 
 ## Gotchas
 #### #1 Different themes read the content folder differently
-This one didn't take too long to figure out.  I was tyring out 2 different themes provided from [themes.gohugo.io](themes.gohugo.io), cocoa and hemingway.  I started working with the hemingway theme which expects the posts to live in the `/content/post` folder.  After switching to the cocoa theme, my posts suddenly disappeared!  It turned out the cocoa theme expected the posts to be in the `/content/blog` folder.
+This one didn't take too long to figure out.  I was trying out 2 different themes provided from [themes.gohugo.io](themes.gohugo.io), cocoa and hemingway.  I started working with the hemingway theme which expects the posts to live in the `/content/post` folder.  After switching to the cocoa theme, my posts suddenly disappeared!  It turned out the cocoa theme expected the posts to be in the `/content/blog` folder.
 
 There are many approaches you can take to fix this problem.  One way is to modify the templates to use the path where your posts live in.  Another way is to check to see if your `config.toml` file has a parameter which defines where the templates will look for the posts.  I took the more lazy approach and simply renamed the folder name to match with the theme I was using. (I eventually settled for the hemingway theme so I renamed the folder back to `post`)
 
