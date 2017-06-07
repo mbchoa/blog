@@ -23,3 +23,8 @@ fa_icon = "fa-twitter"
 [[params.social]]
 url = "/index.xml"
 fa_icon = "fa-rss"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
