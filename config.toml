@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Michael-Bryant Choa"
 theme = "kiss"
 copyright = "&copy; <a href=\"https://github.com/mbchoa\">Michael-Bryant Choa</a> 2019"
-disqusShortname = "shortname"
+disqusShortname = "mbchoa-blog"
 googleAnalytics = ""
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
