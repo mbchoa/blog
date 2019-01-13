@@ -1,30 +1,59 @@
-baseurl = "/"
+baseurl = "https://example.com"
 languageCode = "en"
 title = "Michael-Bryant Choa"
-theme = "hemingway"
-copyright = "&copy; <a href=\"https://github.com/mbchoa\">Michael-Bryant Choa</a> 2016"
-disqusShortname = "mbchoa-blog"
-googleAnalytics = "UA-88930105-2"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/mbchoa\">Michael-Bryant Choa</a> 2019"
+disqusShortname = "shortname"
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
 
-[params]
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Michael-Bryant Choa" # Author full name
+authorEmail = "mbchoa@gmail.com" # Author email
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
+[params.assets]
+customCSS = ["css/custom.css"]
 
-[[params.social]]
-url = "https://github.com/mbchoa"
-fa_icon = "fa-github"
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
 
-[[params.social]]
-url = "https://twitter.com/mibrychoa"
-fa_icon = "fa-twitter"
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "mibrychoa"
+github = "mbchoa"
+email = "mbchoa@gmail.com"
+linkedin = "mbchoa"
+facebook = ""
+instagram = ""
+codepen = "mbchoa"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","codepen","linkedin"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
-series = "series"
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true

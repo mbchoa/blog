@@ -1,3 +1,3 @@
-[submodule "themes/hemingway"]
-	path = themes/hemingway
-	url = https://github.com/mbchoa/hemingway
+[submodule "themes/kiss"]
+	path = themes/kiss
+	url = https://github.com/ribice/kiss.git
